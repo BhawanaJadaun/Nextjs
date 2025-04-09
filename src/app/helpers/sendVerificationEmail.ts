@@ -1,5 +1,5 @@
 import {resend} from "@/lib/resend";
-import VerificationEmail  from "../../.././emails/VerificationEmail.tsx";
+import VerificationEmail  from "../../.././emails/VerificationEmail";
 import {ApiResponse} from "@/type/ApiResponse"
 export async function sendVerificationEmail(
 email:string,
