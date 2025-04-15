@@ -126,16 +126,4 @@ try {
     )
 }
 }
-// const userId = user._id;
-// const foundUser = await UserModel.findById(userId)
-// if(!foundUser){
-// return Response.json(
-// {
-// success:true,
-// message:"failed to update user status to accept messages"
-// },
-// {status:404}
-// )
-// }
-
 
